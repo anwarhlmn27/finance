@@ -1,0 +1,8 @@
+.filter-kontak {
+    cursor: pointer;
+    padding-bottom: 8px;
+}
+
+.filter-kontak.selected {
+    border-bottom: solid 2px lightskyblue
+}

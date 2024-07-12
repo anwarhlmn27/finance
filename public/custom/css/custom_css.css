@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: small;
+  color: black !important;
+}
+
+/* =========================== TABLE ====================== */
+.custom-table thead {
+  background-color: #f2f2f2;
+}
+
+.custom-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Optional: Apply hover effect */
+.custom-table tr:hover {
+  background-color: #ddd;
+}
+
+/* Optional: Style table, th, and td */
+.custom-table {
+  overflow: auto;
+  width: 100%;
+}
+
+.custom-table tbody td {
+  vertical-align: middle;
+}
+
+/* .custom-table td {
+  padding-top:90px;
+  padding-bottom:20px;
+  padding-right:20px;   
+}
+
+.custom-table td:first-child {
+  padding-left:20px;
+  padding-right:0;
+} */
+
+/*.custom-table .select2-container {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 8px; 
+}*/
+
+/* .custom-table {
+  border-collapse: separate; /* Separate borders 
+  border-spacing: 10; /* No spacing between border 
+  width: 100%;
+}
+
+.custom-table tr {
+  padding-top: 82px;
+  padding-bottom: 12px;
+}
+
+.custom-table th,
+.custom-table td {
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-table th {
+  background-color: #4caf50;
+  color: white;
+} */
+
+
+/* ========================= Layout ======================= */
+.main-content {
+  min-height: 100vh;
+}
+
+/* =========================== TABLE ====================== */
+
+.card-body.padding-small {
+  padding-top: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.card.warning-card {
+  border-color: rgb(245, 234, 162);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.card.warning-card .card-header {
+  background-color: rgb(245, 234, 162);
+  color: black;
+  font-weight: bold;
+}
+
+.card.warning-card .card-body {
+  background-color: rgb(245, 248, 200);
+  color: black;
+  font-weight: bold;
+}
+
+.card.warning-card .card-body.light {
+  background-color: rgb(253, 255, 229);
+}
+
+.card.danger-card {
+  border-color: rgb(255, 129, 129);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.card.danger-card .card-header {
+  background-color: rgb(255, 129, 129);
+  color: black;
+  font-weight: bold;
+}
+
+.card.danger-card .card-body {
+  background-color: rgb(255, 182, 182);
+  color: black;
+  font-weight: bold;
+}
+
+.card.danger-card .card-body.light {
+  background-color: rgb(255, 240, 240);
+}
+
+.card.success-card {
+  border-color: rgb(120, 255, 185);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.card.success-card .card-header {
+  background-color: rgb(120, 255, 185);
+  color: black;
+  font-weight: bold;
+}
+
+.card.success-card .card-body {
+  background-color: rgb(178, 254, 215);
+  color: black;
+  font-weight: bold;
+}
+
+.card.primary-card {
+  border-color: rgb(104, 156, 207);
+  border-style: solid;
+  border-width: 3px;
+}
+
+.card.primary-card .card-header {
+  background-color: rgb(104, 156, 207);
+  color: black;
+  font-weight: bold;
+}
+
+.card.primary-card .card-body {
+  background-color: rgb(233, 243, 253);
+  color: black;
+  font-weight: bold;
+}
+
+/* ===================== SELECT 2 =========================== */
+.select2 {
+  width: 100% !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #346ee0 !important;
+}
